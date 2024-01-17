@@ -1,0 +1,39 @@
+.NewTravelogue_form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.NewTravelogue_h1 {
+  text-align: center;
+}
+
+.NewTravelogue_label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.NewTravelogue_input,
+.NewTravelogue_textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.NewTravelogue_input[type="file"] {
+  margin-top: 15px;
+}
+
+.NewTravelogue_button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.required-asterisk {
+  color: rgb(234, 28, 28); /* Makes the asterisk red */
+}
+

@@ -1,0 +1,36 @@
+.like-section {
+    display: flex;
+    align-items: center;
+    /* This will vertically align the button and the like count */
+}
+
+.likes-count {
+    margin-left: 10px;
+    /* Adjust as needed for spacing */
+}
+
+.rightMostLink {
+    margin-left: auto;
+    /* This pushes the link to the right */
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: calc(2em * 3);
+}
